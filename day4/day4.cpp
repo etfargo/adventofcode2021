@@ -316,7 +316,7 @@ void part2()
 
     //add up the total of all unmarked squares
     int unmarkedSum = 0;
-    int lastBoard = winningBoards[winningBoards.size()];
+    int lastBoard = winningBoards[winningBoards.size() - 1];
     std::printf("last board num is = %d\n", lastBoard);
     for(int row = 0; row < 5; row ++) {
         for(int col = 0; col < 5; col++) {
